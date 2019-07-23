@@ -12,8 +12,7 @@ const Footer = props => (
         </div>
 
         <div className={styles.footerCenter}>
-            {/* <img src={../logosvg.svg" /> */}
-            <img src={require('../../logosvg')} />
+
         </div>
 
         <div className={styles.footerRight}>

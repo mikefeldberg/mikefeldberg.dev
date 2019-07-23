@@ -4,7 +4,7 @@ import styles from './Hero.module.css';
 const Hero = props => (
     <div>
         <div className={styles.heroContainer}>
-        <img className={styles.heroImage} src={props.imageUrl} />
+        <img className={styles.heroImage} src={props.imageUrl} alt="mike headshot" />
             <div className={styles.content}>
                 <div className={['heroTitle', 'highlight', styles.overlay, styles.heroTitle].join(' ')}>
                     <h1 className={styles.overlay}>

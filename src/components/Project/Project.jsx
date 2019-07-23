@@ -7,6 +7,7 @@ const Project = props => (
             <img
                 className={[styles.projectThumb, 'round'].join(' ')}
                 src={props.imageUrl}
+                alt={props.name}
             />
 
             <div className={[styles.overlay, styles.projectThumb, 'round'].join(' ')}>
@@ -19,10 +20,10 @@ const Project = props => (
                     </div>
                 </div>
                 <div>
-                    <a className="mr30" href={props.githubUrl} target="_blank">
+                    <a className="mr30" href={props.githubUrl} target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github fa-3x" />
                     </a>
-                    <a href={props.deployedUrl} target="_blank">
+                    <a href={props.deployedUrl} target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-rocket fa-3x" />
                     </a>
                 </div>
