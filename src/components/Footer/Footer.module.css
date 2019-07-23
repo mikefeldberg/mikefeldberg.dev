@@ -1,0 +1,104 @@
+.footer{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: left;
+    font: bold .9em sans-serif;
+    padding: 50px 50px;
+    margin-top: 80px;
+    color: #E5E2D2; 
+    background-color: #748CAB;
+    display: flex;
+}
+
+
+.footer .footerLeft,
+.footer .footerCenter,
+.footer .footerRight{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.footer .footerLeft {
+    width: 25vw;
+    justify-content: flex-end;
+}
+
+.footer .footerCenter {
+    width: 50vw;
+}
+
+.footer .footerRight{
+    width: 25vw; 
+}
+
+/* Footer left */
+
+/* The company logo */
+
+.footer h3{
+    font: normal 36px 'EB Garamond', cursive;
+    margin: 0;
+}
+
+.footer h3 span{
+    color:  #1D2D44;
+}
+
+/* Footer links */
+
+.footer .footerLinks{
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer .footerLinks a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer .footerCompanyName{
+    color: #E5E2D2; 
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+
+/* .footer .footerCenter i{
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+} */
+
+@media (max-width: 880px) {
+
+    .footer{
+        font: bold 14px sans-serif;
+    }
+
+    .footer .footerLeft,
+    .footer .footerCenter,
+    .footer .footerRight{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer .footerCenter i{
+        margin-left: 0;
+    }
+
+}
