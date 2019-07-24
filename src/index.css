@@ -110,20 +110,22 @@ hr {
   padding: 0 5vw;
 }
 
-.linkedin {
+.linkedin:hover {
   color: #0077B5;
+  transition: 0.5s ease;
 }
 
-.github {
+.github:hover {
   color: black;
+  transition: 0.5s ease;
 }
 
-.email {
-  /* color: #b23121; */
-  color: white;
+.email:hover {
+  color: #b23121;
+  transition: 0.5s ease;
 }
 
-.phone {
-  /* color: #973999; */
+.linkedin, .github, .email {
   color: white;
+  transition: .5s ease;
 }
