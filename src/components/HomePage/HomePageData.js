@@ -39,8 +39,8 @@ const HomePageData = {
         deployedUrl: 'https://mikefeldberg.github.io/mastermind/'
     }],
     contact: {
-        githubUrl: 'github.com/mikefeldberg',
-        linkedinUrl: 'linkedin.com/in/mikefeldberg',
+        githubUrl: 'https://www.github.com/mikefeldberg',
+        linkedinUrl: 'https://www.linkedin.com/in/mikefeldberg',
         email: 'mikefeldberg@gmail.com',
         phone: '‪424.273.5570‬',
         location: 'Los Angeles'
