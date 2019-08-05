@@ -11,7 +11,7 @@ const Project = props => (
             />
 
             <div className={[styles.overlay, styles.projectThumb, 'round'].join(' ')}>
-                <h3 className="title p5vw">{props.name}</h3>
+                <h3 className="title p15vw">{props.name}</h3>
                 <div className="p10">{props.slug}</div>
                 <div className="p10">
                     <strong>Tech Used:</strong>
