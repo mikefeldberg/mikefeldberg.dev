@@ -43,6 +43,7 @@ const HomePageData = {
         linkedinUrl: 'https://www.linkedin.com/in/mikefeldberg',
         email: 'mikefeldberg@gmail.com',
         phone: '‪424.273.5570‬',
+        resume: '‪‬',
         location: 'Los Angeles'
     },
     contactColor: {

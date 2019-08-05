@@ -9,6 +9,7 @@
     color: white; 
     background-color: #748CAB;
     display: flex;
+    justify-content: space-around;
 }
 
 
@@ -84,8 +85,8 @@
 @media (max-width: 880px) {
 
     .footer{
-        font: bold 11px sans-serif;
-        padding: 20px;
+        font: bold 10px sans-serif;
+        padding: 0;
     }
 
     .footer h3{
@@ -101,15 +102,16 @@
     .footer .footerRight{
         display: flex;
         width: 50vw;
+        padding: 10px
         /* margin-bottom: 40px; */
+    }
+
+    .footer .footerCenter {
+        width: 0vw;
+        padding: 10px;
     }
 
     .footer .footerCompanyName{
         font-size: 10px;
     }
-
-    .footer .footerCenter {
-        display: none;
-    }
-
 }

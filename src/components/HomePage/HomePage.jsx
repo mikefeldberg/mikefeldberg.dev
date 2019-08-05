@@ -9,6 +9,7 @@ import HomePageData from './HomePageData';
 
 const HomePage = props => (
     <div>
+        
         <Hero
             imageUrl={HomePageData.hero.imageUrl}
             title={HomePageData.hero.title}
