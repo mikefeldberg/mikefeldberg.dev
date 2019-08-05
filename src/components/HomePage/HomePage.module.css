@@ -1,7 +1,13 @@
 .setContainer {
-    width: 60vw;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     flex-wrap: wrap;
+    width: 80vw;
+}
+
+@media (min-width: 900px) {
+    .setContainer {
+        width: 60vw;
+    }
 }
