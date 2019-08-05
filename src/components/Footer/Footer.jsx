@@ -28,12 +28,12 @@ const Footer = props => (
                 <a href={['mailto:', props.contact.email].join('')}>
                     <i className="fa fa-envelope fa-lg mr10 mb15 email" />
                 </a>
-                <a href={['mailto:', props.contact.email].join('')}>
+                <a className="email" href={['mailto:', props.contact.email].join('')}>
                     {props.contact.email}
                 </a>
                 <div>
                     <a href={["tel:", props.contact.phone].join('')}><i className="fas fa-phone fa-lg mr10 phone" /></a>
-                    <a href={["tel:", props.contact.phone].join('')}>{props.contact.phone}</a>
+                    <a href={["tel:", props.contact.phone].join('')} className="phone">{props.contact.phone}</a>
                 </div>
             </div>
         </div>

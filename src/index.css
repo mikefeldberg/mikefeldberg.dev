@@ -9,7 +9,7 @@ body {
   background-color: #1D2D44;
   
   font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  line-height: calc(1.7em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 
   /* padding: 20px 300px 50px; */
   padding-top: 40px;
@@ -23,7 +23,7 @@ code {
 }
 
 a {
-  color: inherit;
+  color: white;
 }
 
 footer {
@@ -130,7 +130,12 @@ hr {
   transition: 0.5s ease;
 }
 
-.linkedin, .github, .email {
+.phone:hover {
+  color: #1d7003;
+  transition: 0.5s ease;
+}
+
+.linkedin, .github, .email, .phone {
   color: white;
   transition: .5s ease;
 }
