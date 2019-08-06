@@ -11,11 +11,6 @@ class Project extends Component {
         this.setState(prevState => ({ isOverlayVisible: !prevState.isOverlayVisible }));
     };
 
-    // removeOverlay = () => {
-    //     console.log('disabling overlay');
-    //     this.setState({ isOverlayVisitble: false });
-    // }
-
     render() {
         const { isOverlayVisible } = this.state;
 
