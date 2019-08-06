@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+// import pdf from '../../mikefeldberg_resume_20190805.pdf';
 
 const Footer = props => (
     <footer className={styles.footer}>
@@ -25,6 +26,10 @@ const Footer = props => (
                 <i className="fab fa-linkedin fa-lg mb15 linkedin" />
             </a>
             <div>
+                <div className="mb15">
+                    <a className="resume" href="https://drive.google.com/file/d/1OSkzYz5Dl4o8E57jtYwHeaAmNEPETXno/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-word fa-lg mr10" aria-hidden="true" /></a>
+                    <a className="resume" href="https://drive.google.com/file/d/1OSkzYz5Dl4o8E57jtYwHeaAmNEPETXno/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
+                </div>
                 <a href={['mailto:', props.contact.email].join('')}>
                     <i className="fa fa-envelope fa-lg mr10 mb15 email" />
                 </a>
@@ -32,7 +37,7 @@ const Footer = props => (
                     {props.contact.email}
                 </a>
                 <div>
-                    <a href={["tel:", props.contact.phone].join('')}><i className="fas fa-phone fa-lg mr10 phone" /></a>
+                    <a href={["tel:", props.contact.phone].join('')}><i className="fas fa-phone-square-alt fa-lg mr10 phone" /></a>
                     <a href={["tel:", props.contact.phone].join('')} className="phone">{props.contact.phone}</a>
                 </div>
             </div>

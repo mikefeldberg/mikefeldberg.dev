@@ -132,7 +132,12 @@ hr {
 }
 
 .phone:hover {
-  color: #1d7003;
+  color: #4ADA67;
+  transition: 0.5s ease;
+}
+
+.resume:hover {
+  color: #295395;
   transition: 0.5s ease;
 }
 
