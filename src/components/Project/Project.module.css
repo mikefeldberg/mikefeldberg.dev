@@ -27,9 +27,10 @@
     right: 0;
     z-index: 1;
     background-color: rgb(0, 0, 0);
+    line-height: 1.1em;
 }
 
-.content:hover .overlay {
+.overlay:hover {
     opacity: .85;
     transition: 0.5s ease;
 }
@@ -40,4 +41,9 @@
     height: 25vw;
     min-height: 350px;
     border: 1px solid #ccc;
+}
+
+.mobileHover {
+    opacity: .85;
+    transition: 0.5s ease;
 }
