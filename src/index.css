@@ -48,6 +48,8 @@ footer {
 h3.title {
   font-weight: 800;
   font-size: 1.3em;
+  margin-block-end: 0;
+  line-height: 1.1em;
 }
 
 h4.title {
