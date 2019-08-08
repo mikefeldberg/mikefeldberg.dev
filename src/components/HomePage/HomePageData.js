@@ -2,17 +2,17 @@
 const HomePageData = {
     hero: {
         imageUrl: 'https://i.imgur.com/AlzagUe.jpg',
-        title: `Hi, I'm Mike`,
+        title: `Hi, I’m Mike`,
         subtitle: `Attorney turned dev`,
     },
     statements: [{
-        paragraph1: `I used to be an attorney in New York. I liked it. But I didn't like it enough to spend another 30 years living with the industry-standard cognitive and emotional exhaustion. Now I'm a dev in LA. And I love it. It's a lot of the same multi-tasking and problem-solving skills without any of the anxiety or self-loathing.`,
+        paragraph1: `I used to be an attorney in New York. I liked it. But I didn’t like it enough to spend another 30 years living with the industry-standard cognitive and emotional exhaustion. Now I’m a dev in LA. And I love it. It’s a lot of the same multi-tasking and problem-solving skills without any of the anxiety or self-loathing.`,
         paragraph2: `I spend most of my free time cooking, building stuff, trying not to kill any more of my plants, and, as of a few months ago, coding!`,
     }],
     projects: [{
-        name: 'Feldberguesa\'s Cookbook',
+        name: 'Feldberguesa’s Cookbook',
         slug: 'Browse, review, and share your favorite recipes!',
-        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Node', 'Express', 'MongoDB', 'Google O Auth'],
+        tech: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Node', 'Express', 'MongoDB', 'Google OAuth'],
         imageUrl: 'https://imgur.com/Ea4CBUO.png',
         githubUrl: 'https://github.com/mikefeldberg/feldberguesa-cookbook',
         deployedUrl: 'https://feldberguesa-cookbook.herokuapp.com'
