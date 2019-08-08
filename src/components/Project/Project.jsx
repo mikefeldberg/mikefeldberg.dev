@@ -6,10 +6,10 @@ class Project extends Component {
         isOverlayVisible: true,
     };
 
-    // toggleOverlay = () => {
-    //     console.log('toggling overlay');
-    //     this.setState(prevState => ({ isOverlayVisible: !prevState.isOverlayVisible }));
-    // };
+    toggleOverlay = () => {
+        console.log('toggling overlay');
+        this.setState(prevState => ({ isOverlayVisible: !prevState.isOverlayVisible }));
+    };
 
     render() {
         const { isOverlayVisible } = this.state;
@@ -23,8 +23,8 @@ class Project extends Component {
                         alt={this.props.name}
                     />
 
-                    {/* <div onClick={this.toggleOverlay} className={[styles.overlay, styles.projectThumb, `${isOverlayVisible ? "" : styles.mobileHover}`, 'round'].join(' ')}> */}
-                    <div className={[styles.overlay, styles.projectThumb, 'round'].join(' ')}>
+                    <div onClick={this.toggleOverlay} className={[styles.overlay, styles.projectThumb, `${isOverlayVisible ? "" : styles.mobileHover}`, 'round'].join(' ')}>
+                    {/* <div className={[styles.overlay, styles.projectThumb, 'round'].join(' ')}> */}
                         <h3 className="title p15vw">{this.props.name}</h3>
                         <div className="p10">{this.props.slug}</div>
                         <div className="p10">
