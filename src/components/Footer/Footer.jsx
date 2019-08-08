@@ -28,9 +28,9 @@ const Footer = props => (
             <div>
                 <div className="mb15">
                     <a className="resume" href="https://drive.google.com/file/d/1OSkzYz5Dl4o8E57jtYwHeaAmNEPETXno/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                        <div>
+                        <span>
                             <i className="fas fa-file-word fa-lg mr10" aria-hidden="true" />
-                        </div>
+                        </span>
                     </a>
                     <a className="resume" href="https://drive.google.com/file/d/1OSkzYz5Dl4o8E57jtYwHeaAmNEPETXno/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
                 </div>
