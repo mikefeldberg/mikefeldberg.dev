@@ -24,7 +24,6 @@ class Project extends Component {
                     />
 
                     <div onClick={this.toggleOverlay} className={[styles.overlay, styles.projectThumb, `${isOverlayVisible ? "" : styles.mobileHover}`, 'round'].join(' ')}>
-                    {/* <div className={[styles.overlay, styles.projectThumb, 'round'].join(' ')}> */}
                         <h3 className="title p15vw">{this.props.name}</h3>
                         <div className="p10">{this.props.slug}</div>
                         <div className="p10">
