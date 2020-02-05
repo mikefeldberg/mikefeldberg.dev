@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Footer.module.css';
-// import pdf from '../../mikefeldberg_resume_20190805.pdf';
 
 const Footer = props => (
     <footer className={styles.footer}>
@@ -9,7 +8,7 @@ const Footer = props => (
                 M<span>F</span>
             </h3>
 
-            <p className={styles.footerCompanyName}>Mike Feldberg © 2019</p>
+            <p className={styles.footerCompanyName}>Mike Feldberg © 2020</p>
         </div>
 
         <div className={styles.footerCenter}></div>

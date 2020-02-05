@@ -5,8 +5,8 @@ const HomePageData = {
         subtitle: `Attorney turned dev`,
     },
     statements: [{
-        paragraph1: `I used to be an attorney in New York. I liked it. But I didn’t like it enough to spend another 30 years on it. Now I’m a dev in LA. And I love it. It’s a lot of the same multi-tasking and problem-solving skills but in a substantially more fun and engaging medium.`,
-        paragraph2: `I spend most of my free time cooking, building stuff, trying not to kill any more of my plants, and, as of a few months ago, coding!`,
+        paragraph1: `I used to be an attorney in New York. I liked it. But I didn’t like it enough to do it for another 30 years. Now I’m a dev in LA. And I love it. It’s a lot of the same multi-tasking and problem-solving skills but in a substantially more fun and engaging medium.`,
+        paragraph2: `I spend most of my free time cooking, building stuff, trying not to kill any more of my plants, and, coding!`,
     }],
     projects: [{
         name: 'Feldberguesa’s Cookbook',
